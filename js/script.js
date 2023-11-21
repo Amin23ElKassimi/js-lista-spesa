@@ -5,12 +5,12 @@
 
 
 
-const listaSpesa =  ['Arancie','carlo','Latte','Olive','Olio','pane','Carta','Acqua','Vestiti'];
+const listaSpesa =  ['Arancie','carlo','Latte','Olive','Olio','pane','Carta','Acqua','Vestiti']; 
 const lista = document.querySelector('#lista');
 let index = 0;
 
 while (index < listaSpesa.length) {
-    const listElement = document.createElement('li');
+    const listElement = document.createElement('li'); 
     lista.appendChild(listElement);
     listElement.innerHTML = listaSpesa[index];
     index = index + 1;
